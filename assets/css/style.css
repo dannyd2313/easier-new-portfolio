@@ -1,0 +1,49 @@
+html {
+    display: inline;
+}
+head {
+    display: none;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    color: black;
+    background: chartreuse;
+}
+h1{
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:rgb(44, 30, 163);
+    font-size:30px;
+}
+h2{
+    font-size: 24px;
+}
+#meimage{
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+    }
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    display: block
+}
+#main-body {
+    width: 70%;
+    float: left;
+    display: block;
+}
+#info {
+    width: 30%;
+    float: left;
+    display: block;
+}
+li {
+    display: block;
+    text-align: end;
+}
