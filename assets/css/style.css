@@ -5,11 +5,11 @@ head {
     display: none;
 }
 body {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif
-    font-size: 20px;
-    line-height: 150%;
+    padding: 20px;
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    
     /*color: black;*/
     background-color: aquamarine;
 }
@@ -22,12 +22,12 @@ h1{
     font-size:28px;
     color: beige;
 }
-}
-h2{
-    font-size: 22px;
+
+.myname{
+    font-size: 40px;
     padding: 20px 20px;
     margin: 10px 10px;
-    text-align: end;
+    /* text-align: end; */
     background-color: blue
 }
 a {
@@ -50,18 +50,27 @@ a {
     margin: 0 auto;
 }
 #main-body {
-   width: 60%;
+   width: 80%;
 }
+
+
 #info {
     width: 30%;
 }
-ul  {
-    list-style-position: ;
+/* ul  { */
+    /* list-style-position: ; */
     /*border-style: solid;*/
-}info {
-    width: 30%;
-   }
-ul  {
-    list-style-position: ;
+/* } */
+/* info { */
+    /* width: 30%; */
+   /* } */
+/* ul  { */
+    /* list-style-position: ; */
     /*border-style: solid;*/
+/* } */
+@media screen and (max width: 600px){
+    body{ 
+        background-color: blue;
+
+    }
 }
